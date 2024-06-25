@@ -5,6 +5,8 @@
 
 
 
+
+
 *{
 margin: 0px;
 padding: 0px;
@@ -46,6 +48,9 @@ height:80px ;
 background-color: var(--cor-01);
 
 }
+
+
+
 
 .cabecalho__conteudo{
     display: flex;

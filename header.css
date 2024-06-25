@@ -1,0 +1,7 @@
+.cabecalho__menu-hamburguer{
+width: 48px;
+height: 48px;
+background: url("../imagens/Menu.png");
+display: inline-block;
+
+}
