@@ -21,7 +21,7 @@ padding: 0px;
     --cor-azul-01:#002F52;
     --cor-azul-02:#326589;
     --fonte-01:'Poppins';
-
+    --cor-laranja:#EB9B00;
 }
 
 
@@ -94,3 +94,12 @@ justify-content:center;
     color: var(--cor-01);
     font-weight: 400;
 }
+
+.cabecalho__aviso__texto{
+color:var(--cor-laranja) ;
+font-family: var(--fonte-01);
+text-align: center;
+
+
+}
+

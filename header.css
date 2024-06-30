@@ -7,52 +7,56 @@
     --cor-laranja:#EB9B00;
 }
 
-
 .cabecalho__menu-hamburguer{
-
 background-image: url("imagens/Menu.png");
-width:48px ;
-height:48px ;
+width: 48px;
+height: 48px;
 display: inline-block;
 
-}
-
-.lista__menu{
-display: none;
-
-position: absolute;
-background-color: var(--cor-01);
-font-family: var(--fonte-01);
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-width:200px ;
-height: 202px;
-padding:20px 0px 0px 30px  ;
 
 }
-
-.lista__menu__titulo{
-font-weight: 700;
-color: var(--cor-laranja);
-
-}
-
-.lista__menu__item{
-text-decoration: none;
-color: #002F52;
-}
-
-
 
 .container__botao:checked~.lista__menu{
 display: block;
 
 
+
+}
+.container__botao{
+display: none;
+
+
+
 }
 
 
-.container__botao{
-display: none;
+
+.lista__menu{
+    position: absolute;
+display:none;
+top: 100%;
+background-color: var(--cor-01);
+color: cadetblue;
+width:180px ;
+height: 200px;
+
+font-family: var(--fonte-01);
+font-weight: 400;
+padding-left: 30px;
+padding-top: 15px;
+
+}
+
+
+.lista__titulo{
+color:var(--cor-laranja);
+font-weight: 700;
+
+
+}
+
+.lista__item{
+color: var(--cor-azul-01);
+
 
 }
