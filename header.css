@@ -37,13 +37,13 @@ display:none;
 top: 100%;
 background-color: var(--cor-01);
 color: cadetblue;
-width:180px ;
-height: 200px;
+width:60vw;
 
 font-family: var(--fonte-01);
 font-weight: 400;
 padding-left: 30px;
 padding-top: 15px;
+text-transform: uppercase;
 
 }
 
@@ -51,12 +51,13 @@ padding-top: 15px;
 .lista__titulo{
 color:var(--cor-laranja);
 font-weight: 700;
-
+list-style: none;
+padding: 1em;
 
 }
 
 .lista__item{
 color: var(--cor-azul-01);
-
-
+padding: 1em;
+list-style: none;
 }

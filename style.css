@@ -73,27 +73,27 @@ font-weight: 500;
 
 color: var(--cor-01);
 }
-
-
-.cabecalho__conteudo__busca{
-    display: flex;
-
-padding:10px 24px;
+.cabecalho__busca{
+background-color: transparent;
 border: 1px solid var(--cor-01);
 border-radius: 24px;
-width: 320px;
-height: 35px;
-align-items: center;
-justify-content:center;
-
+color: var(--cor-01);
+padding: 1em;
+width: 100%;
 }
 
-.cabecalho__conteudo__busca__texto{
-    font-family: var(--fonte-01);
-    text-decoration: none;
-    color: var(--cor-01);
-    font-weight: 400;
+.cabecalho__busca::placeholder{
+font-family: var(--fonte-01);
+font-size: 14px;
+font-weight: 400;
+color: var(--cor-02);
+text-align: center;
+background: url("imagens/Pesquisa.png") no-repeat;
+background-position: 2em;
 }
+
+
+
 
 .cabecalho__aviso__texto{
 color:var(--cor-laranja) ;
