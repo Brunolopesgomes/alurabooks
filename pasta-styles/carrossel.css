@@ -1,0 +1,42 @@
+:root{
+    --cor-01:#FFFFFF;
+    --cor-02: #EBECEE;
+    --cor-azul-01:#002F52;
+    --cor-azul-02:#326589;
+    --fonte-01:'Poppins';
+    --cor-laranja:#EB9B00;
+}
+
+
+
+.carrossel{
+background-color: var(--cor-02);
+
+
+}
+
+
+.carrossel__titulo{
+}
+
+.swiper-slide img{
+width: 100%;
+
+}
+
+.swiper-button-prev , .swiper-button-next{
+display: none;
+
+}
+
+.swiper-pagination{
+
+position: initial;
+}
+
+
+
+
+
+
+
