@@ -7,60 +7,65 @@
     --cor-laranja:#EB9B00;
 }
 
-.cabecalho__menu-hamburguer{
-background-image: url("../imagens/Menu.png");
-width: 48px;
-height: 48px;
-display: inline-block;
-
-
-}
-
-.container__botao:checked~.lista__menu{
-display: block;
-
-
-
-}
 .container__botao{
 display: none;
 
+}
 
+
+
+
+.container__botao:checked~.lista__menu {
+display: block;
 
 }
 
 
 
+.cabecalho__menu-hamburguer{
+background-image: url("/imagens/Menu.png");
+width: 45px;
+height: 45px;
+display: inline-block;
+
+}
+
 .lista__menu{
-    position: absolute;
-display:none;
+display: none;
+font-family: var(--fonte-01);
+font-size: 16px;
+font-weight: 400;
+position: absolute;
 top: 100%;
 background-color: var(--cor-01);
-color: cadetblue;
-width:60vw;
-
-font-family: var(--fonte-01);
-font-weight: 400;
-padding-left: 30px;
-padding-top: 15px;
+padding-left: 1.5em;
+list-style: none;
+width: 60%;
 text-transform: uppercase;
 
 }
 
-
 .lista__titulo{
-color:var(--cor-laranja);
+    color: var(--cor-laranja);
 font-weight: 700;
-list-style: none;
-padding: 1em;
+font-size: 18px;
 
 }
 
 .lista__item{
-color: var(--cor-azul-01);
 padding: 1em;
-list-style: none;
+
 }
+.lista__item__link{
+text-decoration: none;
+color: var(--cor-azul-01);
+
+}
+.lista__item__link:hover{
+text-decoration: underline;
+
+}
+
 
 .cabecalho__aviso__texto{
     background-color: var(--cor-01);

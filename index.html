@@ -5,30 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alura Books</title>
     <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-/>
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
 <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
     <header class="cabecalho">
         <section class="cabecalho__navegacao" >
-            <div class="cabecalho__navegacao__parte01" >
-            <input type="checkbox" id="menu"  class="container__botao">
+        <div class="cabecalho__navegacao__parte01" >
+            <input type="checkbox" id="menu" class="container__botao">
             <label for="menu">
-            <span class="cabecalho__menu-hamburguer" ></span>
-        </label>
+
+                <span class="cabecalho__menu-hamburguer" > </span>
+
+            </label>
             <ul class="lista__menu" >
-                <li class="lista__titulo" > Categorias  </li>
-                <li class="lista__item" >Programacao</li>
-                <li  class="lista__item">Front-end</li>
-                <li  class="lista__item">Business</li>
-                <li class="lista__item" >Design & ux</li>
+                <li class="lista__titulo" >Categorias</a></li>
+                <li class="lista__item" ><a href="#" class="lista__item__link" >Programação</a></li>
+                <li class="lista__item" ><a href="#" class="lista__item__link" >Front-End</a></li>
+                <li class="lista__item" ><a href="#" class="lista__item__link" >Business</a></li>
+                <li class="lista__item" ><a href="#" class="lista__item__link" >Design e Ux
+                </a></li>
+              
+
+
+
             </ul>
+
+                   
+                    <img src="imagens/Logo.png" alt="">
+        </div>
             
-            <img src="imagens/Logo.png" alt="">
-            </div>
             <div class="cabecalho__navegacao__parte02" >
                 
                 <img src="imagens/Favoritos.png" alt="">
@@ -53,21 +62,23 @@
 <section class="carrossel" >
     <h2 class="carrossel__titulo" ></h2> 
    
-<!-- Slider main container -->
+    <!-- Slider main container -->
 <div class="swiper">
-
+    
     <!-- If we need pagination -->
     <div class="swiper-pagination"></div>
-
     <!-- Additional required wrapper -->
     <div class="swiper-wrapper">
+        
       <!-- Slides -->
-      <div class="swiper-slide"><img src="imagens/ApacheKafka.png" alt=""></div>
-      <div class="swiper-slide"><img src="imagens/Arquitetura.png" alt=""></div>
-      <div class="swiper-slide"><img src="imagens/Construct2.png" alt=""></div>
-      <div class="swiper-slide"><img src="imagens/Liderança.png" alt=""></div>
-      <div class="swiper-slide"><img src="imagens/MetricasAgeis.png" alt=""></div>
-      <div class="swiper-slide"><img src="imagens/Javascript.png" alt=""></div>
+      <div class="swiper-slide"><img src="imagens/ApacheKafka.png" alt="livro do apache"></div>
+      <div class="swiper-slide"><img src="imagens/Arquitetura.png" alt="livro"></div>
+      <div class="swiper-slide"><img src="imagens/Construct2.png" alt="livro"></div>
+      <div class="swiper-slide"><img src="imagens/Gestão.png" alt="livro"></div>
+      <div class="swiper-slide"><img src="imagens/Gestão2.png" alt="livro"></div>
+      <div class="swiper-slide"><img src="imagens/MetricasAgeis.png" alt="livro"></div>
+      <div class="swiper-slide"><img src="imagens/Javascript.png" alt="livro"></div>
+      <div class="swiper-slide"><img src="imagens/Portugol.png" alt="livro"></div>
       ...
     </div>
   
@@ -75,9 +86,8 @@
     <div class="swiper-button-prev"></div>
     <div class="swiper-button-next"></div>
   
-    <!-- If we need scrollbar -->
-    <div class="swiper-scrollbar"></div>
   </div>
+
 </section>
 
 
@@ -96,18 +106,20 @@
 
 
 
+    
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
-        const swiper = new Swiper('.swiper', {
-            slidesPerView: 3,
-            spaceBetween: 10,
-            pagination:{
-                el:'.swiper-pagination',
-                type:'bullets',
+       const swiper = new Swiper('.swiper', {
 
-            }
-        });
+        slidesPerView: 3,
+        spaceBetween: 10,
 
+        pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+  },
+});
 
     </script>
 </body>

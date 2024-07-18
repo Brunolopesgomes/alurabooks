@@ -7,35 +7,22 @@
     --cor-laranja:#EB9B00;
 }
 
-
-
-.carrossel{
-background-color: var(--cor-02);
-
-
-}
-
-
-.carrossel__titulo{
-}
-
 .swiper-slide img{
-width: 100%;
+    width: 100%;
+
 
 }
-
-.swiper-button-prev , .swiper-button-next{
+.swiper-button-prev,.swiper-button-next{
 display: none;
+
 
 }
 
 .swiper-pagination{
+position:initial;
+margin: 0.5em;
 
-position: initial;
 }
-
-
-
 
 
 
