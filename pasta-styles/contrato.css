@@ -1,0 +1,64 @@
+:root{
+    --cor-01:#FFFFFF;
+    --cor-02: #EBECEE;
+    --cor-azul-01:#002F52;
+    --cor-azul-02:#326589;
+    --fonte-01:'Poppins';
+    --cor-laranja:#EB9B00;
+    
+    --degrade:background: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+
+
+}
+.contrato{
+text-align: center;
+padding: 1em 0 2em 0;
+}
+
+.contrato__titulo{
+font-family: var(--fonte-01);
+font-size: 16px;
+color: #002F52;
+padding: 1em;
+
+
+}
+
+.contrato__texto{
+    font-family: var(--fonte-01);
+    font-size: 16px;
+    color: var(--cor-azul-01);
+    
+padding: 1em;
+}
+
+.contrato__cadastro{
+    
+background-color: transparent;
+border: 1px solid var(--cor-azul-01);
+border-radius: 24px;
+background: url("../imagens/Vector.png") no-repeat;
+color: var(--cor-azul-01);
+padding: 1em;
+width:80%;
+text-align: center;
+
+background-position: 3em;
+
+}
+
+.rodape{
+border: 1px solid black;
+padding: 1em;
+
+
+}
+
+.rodape__link{
+text-decoration: none;
+font-family: var(--fonte-01);
+font-weight: 400;
+font-size: 16px;
+color: var(--cor-azul-01);
+}
+

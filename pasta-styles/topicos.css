@@ -1,0 +1,50 @@
+:root{
+    --cor-01:#FFFFFF;
+    --cor-02: #EBECEE;
+    --cor-azul-01:#002F52;
+    --cor-azul-02:#326589;
+    --fonte-01:'Poppins';
+    --cor-laranja:#EB9B00;
+    
+    --degrade:background: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+
+
+}
+.topicos{
+    background: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+padding: 1em;
+
+}
+
+.topicos__titulo{
+text-align: center;
+font-family: var(--fonte-01);
+color: var(--cor-01);
+font-weight: 300;
+font-size: 16px;
+
+}
+
+.topicos__lista{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 30px;
+margin-top: 25px;
+
+}
+
+.topicos__lista__item{
+font-family: var(--fonte-01);
+list-style-type: none;
+font-size: 14px;
+font-weight: 700;
+}
+
+.topicos__lista__item__link{
+text-decoration: none;
+color: var(--cor-01);
+background-color: #EB9B00;
+padding: 0.5em;
+
+}
