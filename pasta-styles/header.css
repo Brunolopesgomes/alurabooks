@@ -23,7 +23,7 @@ display: block;
 
 
 .cabecalho__menu-hamburguer{
-background-image: url("/imagens/Menu.png");
+background-image: url("../imagens/Menu.png");
 width: 45px;
 height: 45px;
 display: inline-block;
