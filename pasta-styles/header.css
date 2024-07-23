@@ -75,3 +75,29 @@ text-decoration: underline;
     text-transform: uppercase;
     
     }
+
+    .cabecalho__navegacao__titulo{
+        font-family: var(--fonte-02);
+        font-weight: 700;
+        font-size: 30px;
+        display: none;
+        
+        }
+        .cabecalho__navegacao__titulo span{
+        font-weight: 400;
+        
+        }
+
+   @media screen and (min-width:1024px){
+
+   
+    .cabecalho__navegacao__titulo{
+    display: block;
+    }
+.cabecalho__menu-hamburguer{
+display: none;
+
+}
+
+    
+   }

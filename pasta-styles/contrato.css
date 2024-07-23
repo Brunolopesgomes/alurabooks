@@ -33,22 +33,28 @@ padding: 1em;
 }
 
 .contrato__cadastro{
-    
-background-color: transparent;
-border: 1px solid var(--cor-azul-01);
-border-radius: 24px;
-background: url("../imagens/Vector.png") no-repeat;
-color: var(--cor-azul-01);
-padding: 1em;
-width:80%;
-text-align: center;
+    color: var(--cor-azul-01);
+    background-color: transparent;
+    border: 1px solid #002F52;
 
-background-position: 3em;
+    border-radius: 24px;
+    padding: 1em;
+    width: 80%;
+
+}
+
+
+.contrato__cadastro::placeholder{
+    text-align: center;
+    color: var(--cor-azul-01);
+    background-image: url("../imagens/Vector.png");
+    background-repeat: no-repeat;
+    background-position:2em;
+    
 
 }
 
 .rodape{
-border: 1px solid black;
 padding: 1em;
 
 
@@ -59,6 +65,4 @@ text-decoration: none;
 font-family: var(--fonte-01);
 font-weight: 400;
 font-size: 16px;
-color: var(--cor-azul-01);
-}
-
+color: var(--cor-azul-01);}
