@@ -24,6 +24,76 @@ margin: 0.5em;
 
 }
 
+@media screen and (min-width:1024px){
+    
+.cabecalho__aviso__texto{
+    padding: 1em 0;
+line-height: 39px;
+font-size: 26px;
 
+}
+.carrossel{
+    display: flex;
+    justify-content: center;
+flex-direction:column;
+
+
+}
+
+.swiper-pagination{
+    justify-content: center;
+    align-items: center;
+    
+    }
+
+
+    .swiper{
+        width: 85%;
+        align-items: center;
+        
+        }
+        
+
+    
+.swiper-slide img{
+width:70%;
+padding-left: 3em;
+
+}
+
+
+.swiper-button-prev,.swiper-button-next{
+    display:block;
+    background-color: #002F52;
+   
+    border-radius: 50px;
+    width: 48px;
+    height: 48px;
+    padding-top: 14px;
+    padding-left: 14px;
+    color:#002F52;
+
+    }
+    .swiper-button-prev{
+    background-image: url(../imagens/chevron_left_black_24dp\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:35px;
+
+    
+    }
+
+    .swiper-button-next{
+    
+        background-image: url(../imagens/chevron_right_black_24dp\ 1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:35px;
+    
+    
+    }
+
+
+}
 
 
