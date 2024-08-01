@@ -48,3 +48,28 @@ background-color: #EB9B00;
 padding: 0.5em;
 
 }
+
+
+
+@media screen and (min-width:1024px){
+
+.topicos{
+    
+}
+
+
+.topicos__lista{
+flex-wrap:wrap ;
+
+
+}
+.topicos__lista__item{
+
+
+}
+.topicos__lista__item__link{
+
+
+}
+    
+}
