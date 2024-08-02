@@ -44,7 +44,7 @@ background-color: var(--cor-02);
 .cabecalho__navegacao{
 display: flex;
 align-items: center;
-justify-content: space-evenly;
+justify-content: space-between;
 
 
 
