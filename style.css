@@ -7,7 +7,7 @@
 @import url("pasta-styles/carrossel.css");
 @import url("pasta-styles/card.css");
 @import url("pasta-styles/topicos.css");
-@import url("pasta-styles/contrato.css");
+@import url("pasta-styles/cadastro.css");
 
 
 *{
@@ -114,3 +114,27 @@ text-align: center;
 
 }
 
+@media screen and (min-width:1024px) {
+
+.cabecalho__conteudo__titulo{
+font-size: 36px;
+line-height: 54px;
+
+
+
+}
+
+.cabecalho__conteudo__texto{
+line-height: 24px;
+font-size: 16px;
+
+}
+.cabecalho__busca{
+width: 50%;
+
+}
+.cabecalho__busca::placeholder{
+background-position: 6em;
+}
+    
+}

@@ -84,8 +84,12 @@
     </header>
     
 <main>
+
+
+<!-----------------------------------------primeiro-carrossel------------------------------------------------------->
+
+
     <section class="carrossel" >
-        <h2 class="carrossel__titulo" ></h2> 
     
         <!-- Slider main container -->
         <div class="swiper">
@@ -120,8 +124,83 @@
                     <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
 
         </div>
+
+
+<!---------------------------------------card-Angular--------------------------------------------------------------->
+
+
             <div>
                 <img src="imagens/angular.png" alt="logo da angular">
+            </div>
+        </div>
+        <div class="card__botoes" >
+            <ul class="card__botoes__lista" >
+                <li class="card__botoes__lista__item" ><img src="imagens/Favoritos.png" alt="livros favoritos"> </li>
+                <li class="card__botoes__lista__item" ><img src="imagens/Compras.png" alt="carrinho de compras"></li>
+
+            </ul>
+            <div class="botao__ancora" >
+                <a href="#">Saiba mais</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    </section>
+
+<!-----------------------------------------segundo-carrossel------------------------------------------------------->
+
+    <section class="carrossel" >
+        <h2 class="carrossel__titulo" > Novos lançamentos</h2> 
+    
+        <!-- Slider main container -->
+        <div class="swiper">
+        
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="imagens/ApacheKafka.png" alt="livro do apache"></div>
+        <div class="swiper-slide"><img src="imagens/Arquitetura.png" alt="livro"></div>
+        <div class="swiper-slide"><img src="imagens/Construct2.png" alt="livro"></div>
+        <div class="swiper-slide"><img src="imagens/Gestão.png" alt="livro"></div>
+        <div class="swiper-slide"><img src="imagens/Gestão2.png" alt="livro"></div>
+        <div class="swiper-slide"><img src="imagens/MetricasAgeis.png" alt="livro"></div>
+        <div class="swiper-slide"><img src="imagens/Javascript.png" alt="livro"></div>
+        <div class="swiper-slide"><img src="imagens/Portugol.png" alt="livro"></div>
+        ...
+        </div>
+    
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"> </div>
+        <div class="swiper-button-next"> </div>
+    
+    </div>
+
+<!---------------------------------------card-Autora--------------------------------------------------------------->
+
+
+    <div class="card" >
+        <div class="card__descricao" >
+            <div class="descricao" >
+                <p class="card__estrelas" ><img src="imagens/Star 4.png" alt="imagem da estrela">
+                    <img src="imagens/Star 4.png" alt="imagem da estrela">
+                    <img src="imagens/Star 4.png" alt="imagem da estrela">
+                    <img src="imagens/Star 4.png" alt="imagem da estrela">
+                    <img src="imagens/Star 4.png" alt="imagem da estrela">
+                </p>
+                <h3 class="descricao__titulo"  >Autora do Mês</h3>
+                <h4 class="descricao__subtitulo"  >Juliana Agarikov </h4>
+                    <p class="descricao__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End. </p>
+
+        </div>
+            <div>
+                <img src="imagens/Perfil-escritora 1.png" alt="logo da angular">
             </div>
         </div>
         <div class="card__botoes" >
@@ -177,10 +256,12 @@
         </ul>
 
 </section>
-<section class="contrato" >
-<h2 class="contrato__titulo" >Fique por dentro das novidades!</h2>
-<p class="contrato__texto" >Atualizações de e-books, novos livros, promoções e outros.</p>
-<input type="email"  class="contrato__cadastro" placeholder="Cadastre seu e-mail" >
+<section class="cadastro" >
+    <div class="cadastro__conteudo">
+<h2 class="cadastro__titulo" >Fique por dentro das novidades!</h2>
+<p class="cadastro__texto" >Atualizações de e-books, novos livros, promoções e outros.</p>
+</div>
+<input type="email"  class="cadastro__email" placeholder="Cadastre seu e-mail" >
 
 </section>
 
@@ -207,7 +288,7 @@
 
         slidesPerView: 3,
         spaceBetween: 10,
-
+       
         pagination: {
         el: '.swiper-pagination',
         type: 'bullets',

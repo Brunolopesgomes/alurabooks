@@ -10,12 +10,12 @@
 
 
 }
-.contrato{
+.cadastro{
 text-align: center;
 padding: 1em 0 2em 0;
 }
 
-.contrato__titulo{
+.cadastro__titulo{
 font-family: var(--fonte-01);
 font-size: 16px;
 color: #002F52;
@@ -24,7 +24,7 @@ padding: 1em;
 
 }
 
-.contrato__texto{
+.cadastro__texto{
     font-family: var(--fonte-01);
     font-size: 16px;
     color: var(--cor-azul-01);
@@ -32,7 +32,7 @@ padding: 1em;
 padding: 1em;
 }
 
-.contrato__cadastro{
+.cadastro__email{
     color: var(--cor-azul-01);
     background-color: transparent;
     border: 1px solid #002F52;
@@ -44,7 +44,7 @@ padding: 1em;
 }
 
 
-.contrato__cadastro::placeholder{
+.cadastro__email::placeholder{
     text-align: center;
     color: var(--cor-azul-01);
     background-image: url("../imagens/Vector.png");
@@ -66,3 +66,28 @@ font-family: var(--fonte-01);
 font-weight: 400;
 font-size: 16px;
 color: var(--cor-azul-01);}
+
+
+
+
+@media screen and (min-width:1024px) {
+
+.cadastro{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 80px;
+}
+
+.cadastro__conteudo{
+width: 40%;
+text-align: justify;
+}
+
+
+.cadastro__email{
+width: 30%;
+
+}
+    
+}
