@@ -24,6 +24,11 @@ margin: 0.5em;
 
 }
 
+.carrossel__02{
+display: none;
+
+}
+
 @media screen and (min-width:1024px){
     
 .cabecalho__aviso__texto{
@@ -52,6 +57,17 @@ font-size: 26px;
 .carrossel{
     display: flex;
     align-items: center;
+flex-direction:column;
+padding: 3em 0;
+
+
+}
+
+.carrossel__02{
+display: block;
+
+display: flex;
+align-items: center;
 flex-direction:column;
 padding: 3em 0;
 
