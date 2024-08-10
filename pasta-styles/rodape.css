@@ -1,4 +1,92 @@
+:root{
+    --cor-01:#FFFFFF;
+    --cor-02: #EBECEE;
+    --cor-azul-01:#002F52;
+    --cor-azul-02:#326589;
+    --fonte-01:'Poppins';
+    --cor-laranja:#EB9B00;
+    --cor-cinza:rgba(133, 133, 133, 1);
+    ;
+}
+
 .rodape{
 display: flex;
 justify-content: space-between;
+padding: 3em;
+
 }
+
+.rodape__lista{
+
+}
+
+.lista__educacao{
+list-style: none;
+font-family: var(--fonte-01);
+display: flex;
+flex-direction: column;
+gap: 15px;
+
+
+}
+.lista__educacao__titulo{
+    color: var(--cor-cinza);
+font-weight: 400;
+font-size:14px;
+line-height: 21px;
+
+}
+.lista__educacao__item{
+display: flex;
+}
+
+
+.lista__educacao__item__link,p{
+text-decoration: none;
+color: black;
+font-weight: 400;
+font-size:14px;
+line-height: 21px;
+display: flex;
+align-items: center;
+gap: 10px;
+
+}
+
+/*--------------------------------------EDUCAÇÂO ONLINE--------------------------------------------*/
+
+
+.lista__educacao__online{
+    list-style: none;
+    font-family: var(--fonte-01);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+    
+    }
+    .lista__educacao__titulo{
+        color: var(--cor-cinza);
+    font-weight: 400;
+    font-size:14px;
+    line-height: 21px;
+    
+    }
+    .lista__educacao__online__item{
+    display: flex;
+    }
+    
+    
+    .lista__educacao__online__item__link{
+        text-decoration: none;
+        color: black;
+        font-weight: 400;
+        font-size:14px;
+        line-height: 21px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    
+    }
+
+
