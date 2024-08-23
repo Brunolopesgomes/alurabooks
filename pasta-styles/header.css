@@ -93,7 +93,20 @@ text-decoration: underline;
         display: none;
         
         }
+
+.cabecalho__navegacao__parte02{
+display: flex;
+
+
+
+}
+
 .opcoes{
+display: none;
+
+}
+
+.texto__navegacao{
 display: none;
 
 }
@@ -110,6 +123,14 @@ display: none;
     .cabecalho__navegacao__titulo{
     display: block;
     }
+
+    .cabecalho__navegacao__parte02{
+
+        padding-right: 1em;
+    
+    }
+
+
 .cabecalho__menu-hamburguer{
 display: none;
 
@@ -173,5 +194,35 @@ padding-left: 0px;
 }
 
 
+
+   }
+
+   @media screen and (min-width:1440px){
+    
+
+.cabecalho__navegacao__parte02{
+
+    padding-right: 1em;
+    gap: 30px;
+}
+.cabecalho__navegacao__parte02__item{
+display: flex;
+align-items: center;
+
+
+}
+
+.texto__navegacao{
+display: block;
+font-family: var(--fonte-01);
+font-weight: 400;
+font-size: 18px;
+}
+
+
+.cabecalho__conteudo{
+display: none;
+
+}
 
    }
