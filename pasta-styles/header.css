@@ -217,6 +217,8 @@ display: block;
 font-family: var(--fonte-01);
 font-weight: 400;
 font-size: 18px;
+text-decoration: none;
+color:var(--cor-azul-01);
 }
 
 
@@ -224,5 +226,19 @@ font-size: 18px;
 display: none;
 
 }
+.opcoes{
+    margin-right: auto;
+    padding-left: 3em;
 
+
+
+}
+   }
+
+   @media screen and (min-width:1728px){
+
+
+
+
+    
    }

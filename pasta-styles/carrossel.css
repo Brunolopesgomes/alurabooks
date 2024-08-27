@@ -131,5 +131,22 @@ width: 60%;
 
 }
 }
+@media screen and (min-width:1728px){
 
+
+.carrossel{
+flex-direction: row;
+padding: 5em;
+gap: 50px;
+}
+
+.carrossel__02{
+
+    flex-direction: row;
+    padding: 5em;
+    gap: 50px;
+
+}   
+
+}
 

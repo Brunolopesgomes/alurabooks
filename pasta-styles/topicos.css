@@ -77,4 +77,19 @@ gap: 60px;
 
 }
     
+
+
+
+}
+@media screen and (min-width:1728px){
+
+.topicos__lista{ 
+    padding:0 20em ;
+
+}
+.topicos__lista__item__link{
+padding: 1em;
+
+}
+
 }
