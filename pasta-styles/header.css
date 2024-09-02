@@ -5,6 +5,9 @@
     --cor-azul-02:#326589;
     --fonte-01:'Poppins';
     --cor-laranja:#EB9B00;
+    --azul-degrade: background: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+
+
 }
 
 .container__botao{
@@ -27,6 +30,17 @@ background-image: url("../imagens/Menu.png");
 width: 45px;
 height: 45px;
 display: inline-block;
+
+}
+
+.container__botao:checked~.container__botao-azul>.cabecalho__menu-hamburguer{
+background: url(/imagens/menu_black_24dp\ 1.png);
+
+
+}
+
+.container__botao:checked~.container__botao-azul{
+    background: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
 
 }
 
@@ -179,6 +193,14 @@ display: block;
 width:auto;
 }
 
+
+.opcoes__menu-botao:checked~.categoria-azul>.opcoes__menu__item{
+ background: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);;
+color: var(--cor-01);
+}
+
+
+
 .opcoes__menu__item{
 list-style: none;
 text-decoration: none;
@@ -188,6 +210,18 @@ font-size: 16px;
 font-weight: 400;
 line-height: 24px;
 }
+
+.lista__item:hover{
+    background: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+
+}
+
+.lista__item__link:hover{
+
+    color: var(--cor-01);
+
+}
+
 .lista__menu{
 padding-left: 0px;
 

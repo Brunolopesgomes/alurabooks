@@ -102,12 +102,21 @@ gap: 10px;
 
 .rodape{
     justify-content: space-evenly;
+    padding:3em  ;
 }
+
+.rodape__link{
+font-size: 20px;
+
+}
+
 
 
 .rodape__lista{
     display: flex;
 
+    border-left:1px solid var(--cor-cinza) ;
+    padding-left: 1em;
 
 
 }
