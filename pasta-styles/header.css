@@ -27,14 +27,15 @@ display: block;
 
 .cabecalho__menu-hamburguer{
 background-image: url("../imagens/Menu.png");
-width: 45px;
+width: 50px;
 height: 45px;
 display: inline-block;
 
 }
 
 .container__botao:checked~.container__botao-azul>.cabecalho__menu-hamburguer{
-background: url(/imagens/menu_black_24dp\ 1.png);
+    
+background: url(../imagens/menu_black_24dp\ 1.png);
 
 
 }
@@ -197,7 +198,6 @@ width:auto;
 .opcoes__menu-botao:checked~.categoria-azul>.opcoes__menu__item{
  background: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);;
 color: var(--cor-01);
-
 
 }
 
